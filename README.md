@@ -20,7 +20,7 @@ Creating a virtual environment is a best practice for Python development. It all
    ```sh
    cd path/to/your/project
 
-1. **Create Virtual Environment**:
+2. **Create Virtual Environment**:
 
     - For Windows
     ```
@@ -31,3 +31,24 @@ Creating a virtual environment is a best practice for Python development. It all
     ```
     python3 -m venv venv
     ```
+    This command creates a directory named venv in your project folder, containing the virtual environment.
+
+3. **Activate Virtual Environment**:
+
+    - For Windows
+    ```
+    .\venv\Scripts\activate
+    ```
+
+    - For macOS/Linux:
+    ```
+    source venv/bin/activate
+    ```
+    Once activated, your terminal prompt will be prefixed with (venv).
+
+### Installing Dependencies
+
+With the virtual environment active, you can install project dependencies.
+
+1. **Ensure pip is Up-to-Date:**:
+
