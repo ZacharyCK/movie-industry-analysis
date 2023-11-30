@@ -25,3 +25,7 @@ Creating a virtual environment is a best practice for Python development. It all
     - For Windows
     ```
     python -m venv venv
+
+    - For macOS/Linux:
+    ```
+    python3 -m venv venv
