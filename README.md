@@ -84,7 +84,7 @@ deactivate
 ```
 This command will return you to your global Python environment.
 
-## Starting a Jupyter Notebook Server
+## Starting a Jupyter Notebook Server and Running the Files
 
 1. **Start the Notebook**
 
@@ -93,3 +93,12 @@ This command will return you to your global Python environment.
     ```
     jupyter notebook
     ```
+2. **Run Files that Process Data**
+
+    You should now be able to run the files with the server created.
+    Go to each file listed, in no particular order, and hit 'Run All'
+    This will process all the datasets and insert them into the SQLite database.
+
+3. **Run Joining Data File**
+
+    Run the joining_data.ipynb file and observe the results of the data queries in visualizations. 
