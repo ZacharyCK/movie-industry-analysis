@@ -100,6 +100,7 @@ This command will return you to your global Python environment.
       - imdb_data_processing.ipynb
       - bo_data_processing.ipynb
       - reviews_data_processing.ipynb
+    
     Each could take up to 30 seconds to run all the way through
     This will process all the datasets and insert them into the SQLite database.
 
