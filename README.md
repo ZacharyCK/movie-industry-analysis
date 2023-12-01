@@ -1,5 +1,22 @@
 # movie-industry-analysis
 
+### Purpose of this Project
+
+This purpose of this project is to see what movie stars, directors and genres have been successful in the past 5 years (2018 - 2022).  This project can help predict who may be successful in the film industry in the near future and what genres people like seeing in movies.  
+
+### Tools Used in this Project
+
+The tools in this project include:
+
+- Python
+- Pandas
+- CSV Files
+- SQLite 
+- Jupyter Notebook
+- Matplotlib
+
+This project makes use of the Python programming language and used a Python Virtual Environment.  It uses the Pandas library by inserting the data from csv files into DataFrames.  A SQLite database is created using Python and the data from the DataFrames were inserted into the corresponding tables.  This project also uses SQL Views to create complex queries from the data.  This project used Matplotlib plots to visualize the results of the SQL queries.  
+
 # Project Setup Instructions
 
 ## Setting Up a Python Virtual Environment
@@ -66,3 +83,13 @@ When you're done working in the virtual environment, you can deactivate it by ru
 deactivate
 ```
 This command will return you to your global Python environment.
+
+## Starting a Jupyter Notebook Server
+
+1. **Start the Notebook**
+
+    To use Jupyter Notebook files (.ipynb) you need to start a Jupyter Notebook server
+    You start the server by running this command in the terminal
+    ```
+    jupyter notebook
+    ```
