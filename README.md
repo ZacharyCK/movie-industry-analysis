@@ -106,4 +106,4 @@ This command will return you to your global Python environment.
 
 4. **Run Joining Data File**
 
-    Run the joining_data.ipynb file and observe the results of the data queries in visualizations. 
+    Run the finalize_data.ipynb file and observe the results of the data queries in visualizations. 
