@@ -19,6 +19,32 @@ This project makes use of the Python programming language and used a Python Virt
 
 # Project Setup Instructions
 
+## Cloning the Repository
+
+Follow these steps to clone the repository to your local machine.
+
+## Prerequisites
+
+- Ensure you have Git installed on your computer. If you do not have Git installed, you can download it from [Git's official site](https://git-scm.com/downloads).
+
+## Cloning the Repository
+
+1. Open your terminal or command prompt.
+
+2. Navigate to the directory where you want to clone the repository.
+
+3. Run the following command:
+
+   ```bash
+   git clone https://github.com/ZacharyCK/movie-industry-analysis
+   ```
+
+4. Once the cloning process is complete, navigate to the cloned repository's directory:
+
+   ```bash
+   cd repository-name
+   ```
+
 ## Setting Up a Python Virtual Environment
 
 Creating a virtual environment is a best practice for Python development. It allows you to manage project dependencies separately from your global Python installation. Here's how to set it up:
