@@ -42,7 +42,7 @@ Follow these steps to clone the repository to your local machine.
 4. Once the cloning process is complete, navigate to the cloned repository's directory:
 
    ```bash
-   cd repository-name
+   cd movie-industry-analysis
    ```
 
 ## Setting Up a Python Virtual Environment
@@ -132,4 +132,46 @@ This command will return you to your global Python environment.
 
 4. **Run Joining Data File**
 
-    Run the finalize_data.ipynb file and observe the results of the data queries in visualizations. 
+    Run the finalize_data.ipynb file and observe the results of the data queries in visualizations.
+
+# Forking the Repository
+
+This guide will help you fork the repository, allowing you to make your own changes and propose improvements.
+
+## Step-by-Step Guide
+
+1. **Navigate to the Repository:**  
+   Go to the GitHub page of this repository.
+
+2. **Fork the Repository:**  
+   Click on the "Fork" button at the top right corner of the page. This creates a copy of the repository in your GitHub account.
+
+3. **Clone Your Fork:**  
+   - On your fork's GitHub page, click the "Clone or download" button and copy the URL.
+   - Open your terminal (or Git Bash if you are on Windows).
+   - Use the command `git clone https://github.com/ZacharyCK/movie-industry-analysis`. This will download your fork to your local machine.
+
+4. **Create a New Branch:**  
+   - Navigate to the cloned directory (if you are not already there).
+   - Use `git checkout -b [branch-name]` to create and switch to a new branch, replacing `[branch-name]` with a name relevant to the changes you plan to make.
+
+5. **Make Your Changes:**  
+   Open the project in your preferred editor, make your changes, and save them.
+
+6. **Commit and Push Your Changes:**  
+   - Stage your changes with `git add .`.
+   - Commit your changes with `git commit -m "Your commit message"`.
+   - Push the changes to your fork with `git push origin [branch-name]`.
+
+7. **Create a Pull Request:**  
+   - Go back to this repository on GitHub.
+   - Click on "Pull requests" and then the "New pull request" button.
+   - Select your fork and branch, then click on "Create pull request".
+   - Add a title and description to your pull request, then submit it.
+
+Congratulations, you have successfully forked and made a change to a repository!
+
+## Need Help?
+
+If you encounter any issues or have questions, feel free to open an issue in the repository or contact the repository maintainers.
+
